@@ -7,9 +7,12 @@
         mc:Ignorable="d"
         Title="GoAwayStress" Height="600" Width="800">
     <Grid>
-        <Button Content="Go away, stress!" HorizontalAlignment="Left" Margin="164,151,0,0" VerticalAlignment="Top" Width="208" Height="72" Cursor="Hand" FontSize="24"/>
-        <CheckBox Content="I don't have stress anymore" HorizontalAlignment="Left" Margin="488,185,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="251" Margin="164,228,0,0" TextWrapping="Wrap" Text="Text goes here" VerticalAlignment="Top" Width="489" FontSize="16"/>
+        <Button Content="Go away, stress!" HorizontalAlignment="Left" Margin="164,99,0,0" VerticalAlignment="Top" Width="489" Height="72" Cursor="Hand" FontSize="48"/>
+        <TextBox HorizontalAlignment="Left" Height="383" Margin="164,176,0,0" TextWrapping="Wrap" Text="Text goes here" VerticalAlignment="Top" Width="489" FontSize="16"/>
+        <Slider Margin="164,10,0,0" Height="18" Width="489" ValueChanged="Slider_ValueChanged" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="Hand"/>
+        <RadioButton Content="Boink" HorizontalAlignment="Left" Margin="164,33,0,0" VerticalAlignment="Top" Height="20" Width="489" FontSize="14"/>
+        <RadioButton Content="Click" HorizontalAlignment="Left" Margin="164,53,0,0" VerticalAlignment="Top" Height="20" Width="489" FontSize="14" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Boom" HorizontalAlignment="Left" Margin="164,73,0,0" VerticalAlignment="Top" Height="26" Width="489" FontSize="14"/>
 
     </Grid>
 </Window>
